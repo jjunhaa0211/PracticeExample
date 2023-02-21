@@ -18,7 +18,9 @@ class ByeViewController: UIViewController {
     private lazy var byeButton = UIButton().then {
         $0.setTitle("잘가~~", for: .normal)
         $0.addTarget(self, action: #selector(byeButtonDidTap), for: .touchUpInside)
-        $0.backgroundColor = .red
+        $0.backgroundColor = .black
+        $0.setTitleColor(UIColor.white, for: .normal)
+
     }
     
     override func viewDidLoad() {

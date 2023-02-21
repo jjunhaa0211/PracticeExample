@@ -20,7 +20,8 @@ class HelloViewController: UIViewController {
     private lazy var helloButton = UIButton().then {
         $0.setTitle("안녕!!", for: .normal)
         $0.addTarget(self, action: #selector(HelloButtonDidTap), for: .touchUpInside)
-        $0.backgroundColor = .blue
+        $0.backgroundColor = .white
+        $0.setTitleColor(UIColor.black, for: .normal)
     }
     
     

@@ -24,7 +24,7 @@ class HelloCoordinator: Coordinator, HelloViewControllerDelegate {
     
     func start() {
         let viewController = HelloViewController()
-        viewController.view.backgroundColor = .red
+        viewController.view.backgroundColor = .black
         viewController.delegate = self
         self.navigationController.viewControllers = [viewController]
     }

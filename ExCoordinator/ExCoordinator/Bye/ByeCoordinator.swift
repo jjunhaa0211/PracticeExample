@@ -24,7 +24,7 @@ class ByeCoordinator: Coordinator, ByeViewControllerDelegate {
     
     func start() {
         let viewController = ByeViewController()
-        viewController.view.backgroundColor = .blue
+        viewController.view.backgroundColor = .white
         viewController.delegate = self
         
         self.navigationController.viewControllers = [viewController]
